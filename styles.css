@@ -5,7 +5,7 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 20px !important;
   color: #40514E;
-  background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ;
+ 
 }
 *{
   margin:0 ;
@@ -59,6 +59,7 @@ p{
 /******************************************************************************class tag *************************************************/
 #main{
 display: none;
+background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ;
 }
 
 
