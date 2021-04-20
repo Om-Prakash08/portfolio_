@@ -55,7 +55,7 @@ display: none;
 .top-container {
   background-color: #cbf1f5;
   position: relative;
-
+  background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ;
   padding-top: 100px;
   overflow: hidden;
 
@@ -88,6 +88,7 @@ margin-top: 8%   ;
 
 .skills{
   background-color:#E4F9F5 ;
+  background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ;
   padding: 3rem 0 ;
   margin-top:5rem ;
 }
