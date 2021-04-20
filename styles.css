@@ -53,8 +53,8 @@ display: none;
 
 
 .top-container {
-  background-color: #cbf1f5;
   position: relative;
+  background-color: #cbf1f5;
   background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ;
   padding-top: 100px;
   overflow: hidden;
@@ -111,18 +111,19 @@ margin-top: 8%   ;
 }
 
 .Projects-row-heading {
-  float: left;
+  /* float: left; */
   text-align: left;
 }
 
 .Projects-row-text {
   text-align: left;
-  margin-left: 30rem;
+  /* margin-left: 30rem; */
   line-height: 1.7;
+  margin: 10px 0;
 }
 
 .Projects-row {
-  margin: 50px 10rem;
+  margin: 50px 15%;
 }
 .Projects{
   margin: 85px 0 140px ;
@@ -222,6 +223,8 @@ top: 35% ;
   top: 30% ;
 }
 }
+
+
 /*************************************************** preloader-img******************************************** */
 #preloader {
   /* background-color: #cbf1f5;
