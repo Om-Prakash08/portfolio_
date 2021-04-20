@@ -222,3 +222,27 @@ top: 35% ;
   top: 30% ;
 }
 }
+/*************************************************** preloader-img******************************************** */
+#preloader {
+  /* background-color: #cbf1f5;
+  background-image:url("https://www.transparenttextures.com/patterns/skulls.png") ; */
+  height: 100vh;
+}
+
+
+#preloader img{
+  width:320px ;
+  height:250px;
+  
+  position:fixed;
+     left: 50%;
+     top:  50%;
+     /*
+         if, for instance, the image is 64x64 pixels,
+         then "move" it half its width/height to the
+         top/left by using negative margins
+     */
+     margin-left: -160px;
+     margin-top:  -125px;
+     
+}
