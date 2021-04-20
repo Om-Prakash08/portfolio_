@@ -217,7 +217,7 @@ margin-top: 8%   ;
 /*************************************************nav element*************************************/
 .navbar-dark {
     background-color:#00303f;
-    font-size :1.3rem ;
+    font-size :1.4rem ;
 }
 .navbar-brand{
     margin :0 2% !important;
@@ -227,6 +227,9 @@ margin-top: 8%   ;
 }
 .nav-link{
     margin :0 0.65rem;
+}
+.navbar{
+  padding: 1% 0 !important ;
 }
 /***********************************************bird flying********************************************/
 
