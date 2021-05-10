@@ -135,6 +135,8 @@
   document.addEventListener('mousemove', function(e) {
     let body = document.querySelector('body');
     let circle = document.createElement('span');
+      //  circle.ClassName="bubble";
+       circle.setAttribute("class", "bubble");
     let x = e.offsetX;
     let y = e.offsetY;
     circle.style.left = x + "px";
