@@ -223,9 +223,15 @@ margin-top: 8%   ;
 }
 .navbar-brand{
     margin :0 2% !important;
+    font-size: 1.5rem !important;
 }
 .navbar-collapse{
  margin-right :2% ;
+}
+.navbar-toggler-icon{
+  height: 3.5rem !important;
+  width: 4rem !important;
+  color: #ffffff !important;
 }
 .nav-link{
     margin :0 0.65rem;
@@ -296,7 +302,7 @@ top: 35% ;
 
 /***************************************** mouse hover *********************************************************************/
 
-span {
+.bubble {
   height: 50px;
   width: 50px;
   border-radius: 50px;
