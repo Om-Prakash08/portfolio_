@@ -5,10 +5,11 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 20px !important;
   color: #40514E;
- 
+
 }
 *{
   margin:0 ;
+  padding: 0;
 }
 
 hr {
@@ -112,6 +113,7 @@ margin-top: 8%   ;
   padding: 10px;
   margin-bottom: 80px ;
   margin-top: 20px ;
+ 
 }
 .skill-row{
   margin-top: 3rem ;
@@ -144,9 +146,7 @@ margin-top: 8%   ;
     padding: 4% 10% 0%;
 }
 
-.Project-column {
-    /* //padding: 80px; */
-}
+
 .card {
     background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
     min-height: 450px;
@@ -291,4 +291,34 @@ top: 35% ;
      margin-left: -160px;
      margin-top:  -125px;
 
+}
+
+
+/***************************************** mouse hover *********************************************************************/
+
+span {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: fixed;
+  pointer-events: none;
+  background: #55b9f3;
+  box-shadow:  20px 20px 60px #489dcf, 
+             -20px -20px 60px #62d5ff;
+  transform: translate(-50%, -50%);
+  animation: blow 4s linear infinite;
+}
+
+
+@keyframes blow {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -1000%);
+    opacity: 0;
+    filter: hue-rotate(720deg);
+  }
 }
